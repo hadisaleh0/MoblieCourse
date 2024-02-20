@@ -3,6 +3,7 @@ package com.example.mobileapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String nametoDisplay = nameEditText.getText().toString();
                 displayText.setText("Hello "+ nametoDisplay);
+                Log.d("MainActivity", "This is a log message");
             }
         });
 
