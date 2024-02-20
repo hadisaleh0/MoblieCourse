@@ -2,4 +2,5 @@
     <string name="app_name">MobileApp</string>
     <string name="Display_message">Hello World</string>
     <string name="Name">Name</string>
+    <string name="Submit">Submit</string>
 </resources>
